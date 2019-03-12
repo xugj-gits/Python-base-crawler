@@ -116,8 +116,8 @@ print(re.findall(pattern1, '这是1个测试findall的123demo'))
 print(re.findall(pattern2, '这是1个测试findall的123demo'))
 ```
 运行结果：
-> ['1', '123']
-> ['findall', 'demo']
+> ['1', '123']  
+['findall', 'demo']
 
 ###### 2.5 &ensp;&ensp; re.finditer(pattern, string[, flags])
 
@@ -130,8 +130,8 @@ for p in re.finditer(pattern, '这是1个测试finditer的123demo'):
     print(p.group())
 ```
 运行结果：
-> 1
-> 123
+> 1  
+123
 
 ###### 2.6 &ensp; &ensp; re.sub(pattern, repl, string[, count])
 > 返回使用repl替换每一个匹配的字符串后的字符串
@@ -159,7 +159,7 @@ print(re.subn(pattern, 'one', '这是101个测试subn函数的demo23456'))
 print(pattern.subn('two', '这是101个测试subn函数的demo23456'))
 ```
 运行结果：
-> ('这是one个测试subn函数的demoone', 2)
-> ('这是two个测试subn函数的demotwo', 2)
+> ('这是one个测试subn函数的demoone', 2)  
+('这是two个测试subn函数的demotwo', 2)
 
 
