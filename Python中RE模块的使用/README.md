@@ -160,5 +160,6 @@ print(pattern.subn('two', '这是101个测试subn函数的demo23456'))
 ```
 运行结果：
 > ('这是one个测试subn函数的demoone', 2)
+('这是two个测试subn函数的demotwo', 2)
 
 
