@@ -1,5 +1,5 @@
 ### UrlLib库的高级使用
-###### 1. Headers设置
+#### 1. Headers设置
 有很多网站为了防止程序爬虫爬网站造成网站瘫痪，会需要携带一些headers头部信息才能访问，最长见的有user-agent参数
 
 ```
@@ -50,7 +50,7 @@ print(response.read())
     "url": "https://httpbin.org/post"
 }
 ```
-###### 2. Proxy（代理）的设置
+#### 2. Proxy（代理）的设置
 网站会检测某一段时间某个IP 的访问次数，如果访问次数过多，它会禁止你的访问,所以这个时候需要通过设置代理来爬取数据
 ```
 # -*- coding: UTF-8 -*-
@@ -84,7 +84,7 @@ print(response.read())
 
 > 这里有可能报错 <font color='red'>HTTP Error 503: Too many open connections</font> 可能是因为使用的免费动态代理IP设置了并发数
 
-###### 3. cookie,HTTPCookiProcessor
+#### 3. cookie,HTTPCookiProcessor
 cookie中保存中我们常见的登录信息，有时候爬取网站需要携带cookie信息访问,这里用到了http.cookijar，用于获取cookie以及存储cookie
 ```
 # -*_ coding:UTF-8 -*-
@@ -113,7 +113,7 @@ BDSVRTM=0
 BD_HOME=0
 ```
 
-###### 4. 异常处理
+#### 4. 异常处理
 在很多时候我们通过程序访问页面的时候，有的页面可能会出现错误，类似404，500等错误
 ```
 # -*- coding:UTF-8 -*-
@@ -152,7 +152,7 @@ Connection: close
 Content-Type: text/html; charset=iso-8859-1
 ```
 
-###### 5. URL解析
+#### 5. URL解析
 
 ###### urlparse:URL解析功能侧重于将URL字符串拆分为其组件，或者将URL组件组合为URL字符串。
 ```
