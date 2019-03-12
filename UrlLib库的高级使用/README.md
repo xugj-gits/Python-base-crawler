@@ -1,4 +1,7 @@
 ### UrlLib库的高级使用
+
+<div align=center><img src="UrlLib库的高级使用.png"/></div>
+
 #### 1. Headers设置
 有很多网站为了防止程序爬虫爬网站造成网站瘫痪，会需要携带一些headers头部信息才能访问，最长见的有user-agent参数
 
