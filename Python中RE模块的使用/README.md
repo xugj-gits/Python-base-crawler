@@ -87,8 +87,8 @@ else:
     print('匹配失败❎')
 ```
 运行结果：
->匹配失败❎
-> 匹配成功✅：world
+> 匹配失败❎  
+匹配成功✅：world
 
 ###### 2.3 &ensp;&ensp;re.split(pattern，string，maxsplit = 0，flags = 0)
 
